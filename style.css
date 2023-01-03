@@ -1,0 +1,433 @@
+
+body{
+    
+    font-family: 'Quicksand', sans-serif;
+} 
+
+.active{
+    color: black;
+}
+
+.disabled{
+    color: #B6B6C6;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+
+.my_kitchen{
+ 
+    width: 155px;
+    height: 30px;
+    background: rgb(251, 224, 220);
+    padding-top: 6px;
+text-align: center;
+border-radius: 10% / 50%;
+border-bottom: 1rem solid white;
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #272042;
+
+
+}
+
+.links ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.ellipse{
+    width: 70px;
+    height: 70px;
+    background: #FBE0DC;
+    box-shadow: 6px 6px 15px rgba(251, 224, 220, 0.58);
+    border-radius: 50%;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;    
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.inheader{
+    display: flex;
+    justify-content: space-between;     
+}
+
+.img{
+    background-image: url('image2.png');
+    background-repeat: no-repeat;
+    width: 619px;
+height: 413px;
+border-radius: 10% 30% 50% 50%;
+vertical-align: middle;
+margin-right: 100px;
+
+}
+
+.ellipse{
+    margin: auto;
+    
+width: 70px;
+height: 70px;
+margin-top: 25%;
+
+
+}
+
+.polygon{
+    margin-left: 298px;
+    position: absolute;
+    top: 270px;
+}
+
+.title h3{
+width: 428px;
+height: 140px;
+
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 46px;
+line-height: 70px;
+}
+
+.title h5{
+    width: 378px;
+    height: 68px;
+   
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    /* or 170% */
+    
+    
+    color: #8B8BA5;
+    
+}
+
+.title{
+    margin-left: 100px;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    
+}
+/* watch now */
+.title_watch_now{
+    
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #8B8BA5;
+
+}
+
+.special-to-try{
+
+
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+/* identical to box height */
+
+text-align: center;
+
+color: #272042;
+
+}
+
+/* options */
+
+.options{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 5px;
+}
+
+.active_option{
+    border-bottom: 1px solid #F7C531;;
+padding-bottom: 5px;
+color: #F7C531;
+}
+
+.four-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* review */
+
+.review_text{
+    
+width: 736px;
+height: 200px;
+
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 50px;
+/* or 139% */
+
+text-align: center;
+
+color: #272042;
+margin: auto;
+}
+
+.review_content{
+    text-align: center;}
+
+    .review_content img{
+        width: 137px;
+       
+    }
+
+    /* num */
+
+    .num_{
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+/* identical to box height */
+
+text-align: center;
+
+color: #272042;
+
+    }
+
+    .user{
+        display: flex;
+        margin: auto;
+        margin-left: 40%;
+    }
+
+    .user_avatar img{
+        border-radius: 50%;
+    }
+
+    .names{
+        position: relative;
+        padding-top: 45.5px;
+    }
+
+    .names{
+        margin-left: 15px;
+
+    }
+
+    .names .user_desc{
+        font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    color: #8B8BA5;
+    }
+    .num_desc{
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+/* identical to box height */
+
+text-align: center;
+
+color: #8B8BA5;
+
+    }
+
+    .numbers{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 84px;
+    }
+
+    /* download */
+
+    .download{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 70px;
+    }
+
+
+    .download_title{
+width: 468px;
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 46px;
+line-height: 70px;
+/* or 152% */
+
+
+color: #272042;
+    }
+
+    .image_download img{
+        width: 408px;
+        height: 522px;
+border-radius: 20%;
+    }
+
+    .card_download{
+        margin-top: 103px;
+    }
+
+    hr{
+        border: 1px solid #ECECEC !important; 
+        
+    }
+
+ 
+
+    .card_desc{
+width: 376px;
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 34px;
+/* or 170% */
+
+margin-top: 10px;
+color: #8B8BA5;
+    }
+
+    .card_logos{
+        margin-top: 51.11px;
+    }
+
+
+    /* site-map */
+
+    .site_map{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 100px;
+margin-right: 100px;
+    }
+
+    .footer{
+        font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+
+text-align: center;
+
+color: #8B8BA5;
+
+    }
+
+
+    .footer_logo_{
+        
+        position: relative;
+        margin-top: 37px;
+    }
+
+    .f_title{
+        font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 28px;
+/* identical to box height */
+
+
+color: #272042;
+    }
+
+
+    .f_active{
+        font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+text-decoration-line: underline;
+
+color: #272042;
+    }
+
+    .part_content{
+        font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #8B8BA5;
+    }
+
+    .img_video img{
+        border-radius: 25% 10%;
+        
+    }
+
+    .vid_txt{
+        text-align: center;
+    }
+
+    .act{
+        filter: brightness(50%);
+        z-index: -1;
+    }
+
+    .ellipse2{
+        margin: auto;
+    width: 70px;
+    height: 70px;
+    margin-top: 25%;
+    }
+
